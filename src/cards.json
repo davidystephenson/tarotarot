@@ -1,0 +1,977 @@
+[
+  {
+    "designation": "Major",
+    "suit": "",
+    "name": "The Fool",
+    "upright": "Exile the top card of each player's library face-up. You may place one of those cards. (\"Each player's library\" includes yours.)",
+    "reversed": "Deal 5 damage to each player. (Including you.)",
+    "tags": [
+      "damage",
+      "placement"
+    ],
+    "image": "Majors01.png"
+  },
+  {
+    "designation": "Major",
+    "suit": "",
+    "name": "The Magician",
+    "upright": "Place a card. You may reverse this card.",
+    "reversed": "Draw 3 cards, then discard 3 cards. If you cannot do either, you win the game.",
+    "tags": [
+      "placement",
+      "cards",
+      "wincon"
+    ],
+    "image": "Majors02.png"
+  },
+  {
+    "designation": "Major",
+    "suit": "",
+    "name": "The High Priestess",
+    "upright": "Name a card. Choose a player to reveal cards from their library until they reveal the named card. If they do, put the revealed cards in their memory. Otherwise, that player shuffles.",
+    "reversed": "Place any number of cards face-down. You may replace this card. (If you do, dismiss this card. Face-down cards may be flipped face-up and triggered at any time.)",
+    "tags": [
+      "mill",
+      "face-down",
+      "minigame"
+    ],
+    "image": "Majors03.png"
+  },
+  {
+    "designation": "Major",
+    "suit": "",
+    "name": "The Empress",
+    "upright": "If The Emperor is on your spread, you win the game.",
+    "reversed": "You may name a card. If the named card is in any player's memory, you may place it, then silence it. If you place a card this way, reverse this card.",
+    "tags": [
+      "wincon",
+      "theft",
+      "memory"
+    ],
+    "image": "Majors04.png"
+  },
+  {
+    "designation": "Major",
+    "suit": "",
+    "name": "The Emperor",
+    "upright": "If The Empress is on your spread, you win the game.",
+    "reversed": "You may dismiss all other cards on your spread to take 2 cards from any players' spreads, silence them, then reverse this card.",
+    "tags": [
+      "wincon",
+      "theft",
+      "placement"
+    ],
+    "image": "Majors05.png"
+  },
+  {
+    "designation": "Major",
+    "suit": "",
+    "name": "The Hierophant",
+    "upright": "Choose a suit. Exile all cards not of that suit. (The suits are Pentacles, Swords, Cups, and Wands. Major cards have no suit. Exile them as well.)",
+    "reversed": "Dismiss all Major cards. For each card dismissed this way, its player may place a Minor card from their hand to that position.",
+    "tags": [
+      "wipe",
+      "refresh"
+    ],
+    "image": "Majors06.png"
+  },
+  {
+    "designation": "Major",
+    "suit": "",
+    "name": "The Lovers",
+    "upright": "Each player draws 2 cards or gains 5 life. (They choose.)",
+    "reversed": "Each opponent discards a card. If they cannot, they take 3 damage.",
+    "tags": [
+      "cards",
+      "discard",
+      "life",
+      "damage"
+    ],
+    "image": "Majors07.png"
+  },
+  {
+    "designation": "Major",
+    "suit": "",
+    "name": "The Chariot",
+    "upright": "Take a card and put it on your spread. (You may reverse it. You cannot replace Major cards this way.)",
+    "reversed": "Exile all cards from a player's memory.",
+    "tags": [
+      "theft",
+      "control"
+    ],
+    "image": "Majors08.png"
+  },
+  {
+    "designation": "Major",
+    "suit": "",
+    "name": "Strength",
+    "upright": "Deal damage to an opponent equal to half their life rounded down, and you take that much damage. This cannot reduce your life total to less than 1.",
+    "reversed": "Pay any number of life up to 10. Deal that much damage to each opponent. (Life paid this way is not damage.)",
+    "tags": [
+      "damage"
+    ],
+    "image": "Majors09.png"
+  },
+  {
+    "designation": "Major",
+    "suit": "",
+    "name": "The Hermit",
+    "upright": "You may dismiss this card to reveal cards from your library until you reveal a Major card. You may replace this card with that card. If you do not, draw it. Shuffle your library.",
+    "reversed": "Each player chooses up to 2 cards. Dismiss all other cards.",
+    "tags": [
+      "placement",
+      "wipe"
+    ],
+    "image": "Majors10.png"
+  },
+  {
+    "designation": "Major",
+    "suit": "",
+    "name": "The Wheel of Fortune",
+    "upright": "Flip a coin. If you win, you gain 3 life and flip again. Repeat until you lose a flip.",
+    "reversed": "Choose an opponent. Flip a coin. The loser of the flip loses 2 life to a minimum of 1 life. The winner may flip again. If they do, double the amount of life lost each time.",
+    "tags": [
+      "damage",
+      "life",
+      "minigame"
+    ],
+    "image": "Majors11.png"
+  },
+  {
+    "designation": "Major",
+    "suit": "",
+    "name": "Justice",
+    "upright": "The player with the least life gains 5 life, then deal 5 damage to the player with the most life. (If there is a tie, you choose.)",
+    "reversed": "The player with the greatest life gains 5 life. Deal 5 damage to the player with the least life. (If there is a tie, you choose.)",
+    "tags": [
+      "damage",
+      "life"
+    ],
+    "image": "Majors12.png"
+  },
+  {
+    "designation": "Major",
+    "suit": "",
+    "name": "The Hanged Man",
+    "upright": "Dismiss any number of cards on your spread. On this turn, whenever you place a card, you may place one additional card for each card dismissed this way.",
+    "reversed": "The next time a player's life total would be reduced to less than 1, it is reduced to 1 instead.",
+    "tags": [
+      "placement",
+      "protection"
+    ],
+    "image": "Majors13.png"
+  },
+  {
+    "designation": "Major",
+    "suit": "",
+    "name": "Death",
+    "upright": "Place up to 3 cards. Deal damage to a player equal to 5 minus the number of cards placed.",
+    "reversed": "Dismiss up to 3 cards on your spread. Deal 5 damage to a player for each card you dismiss this way.",
+    "tags": [
+      "placement",
+      "damage"
+    ],
+    "image": "Majors14.png"
+  },
+  {
+    "designation": "Major",
+    "suit": "",
+    "name": "Temperance",
+    "upright": "Choose a player with the lowest life total. Each player's life total becomes equal to that player's life total. (Life lost this way is not damage.)",
+    "reversed": "If you have the lowest life total among all players, increase your life total to the lowest life total among all other players.",
+    "tags": [
+      "damage",
+      "life"
+    ],
+    "image": "Majors15.png"
+  },
+  {
+    "designation": "Major",
+    "suit": "",
+    "name": "The Devil",
+    "upright": "Deal 3 damage to each opponent. You gain 1 life for each opponent damaged this way.",
+    "reversed": "Exile all cards on your spread. For the rest of the game, whenever you would place a card, you may pay 2 life to place a card from your memory instead.",
+    "tags": [
+      "damage",
+      "life",
+      "memory"
+    ],
+    "image": "Majors16.png"
+  },
+  {
+    "designation": "Major",
+    "suit": "",
+    "name": "The Tower",
+    "upright": "Exile this card. Shuffle all cards into their players' libraries. Starting with you, each player places 2 cards and cannot replace cards this way.",
+    "reversed": "Exile this card, place a card, then flip all cards face-down.",
+    "tags": [
+      "refresh",
+      "face-down",
+      "minigame"
+    ],
+    "image": "Majors17.png"
+  },
+  {
+    "designation": "Major",
+    "suit": "",
+    "name": "The Star",
+    "upright": "Gain 2 life. If you have at least 10 more life than each opponent, you win the game.",
+    "reversed": "Deal 2 damage to each player, then deal damage to each opponent equal to the damage they have taken this turn. (\"All players\" includes you.)",
+    "tags": [
+      "life",
+      "wincon",
+      "multiplier",
+      "damage"
+    ],
+    "image": "Majors18.png"
+  },
+  {
+    "designation": "Major",
+    "suit": "",
+    "name": "The Moon",
+    "upright": "Return all other cards to their players' hands, then exile this card. Until the end of your next turn, players place cards face-down.",
+    "reversed": "Each opponent moves a number of cards equal to the number of cards on their spread plus the number of cards in their hand from their library to their memory.",
+    "tags": [
+      "wipe",
+      "face-down",
+      "mill"
+    ],
+    "image": "Majors19.png"
+  },
+  {
+    "designation": "Major",
+    "suit": "",
+    "name": "The Sun",
+    "upright": "If you have fewer than 5 cards in hand, you may draw cards until you have 5 cards in hand. (You may draw to less than 5.)",
+    "reversed": "Deal damage to each player equal to the number of cards in their hand. (\"Each player\" includes you.)",
+    "tags": [
+      "cards",
+      "cardhate",
+      "damage"
+    ],
+    "image": "Majors20.png"
+  },
+  {
+    "designation": "Major",
+    "suit": "",
+    "name": "Judgement",
+    "upright": "Dismiss all cards. For each card on an opponent's spread dismissed this way, deal 2 damage to that player. (\"All cards\" includes this card.)",
+    "reversed": "Dismiss this card. Place up to 3 cards.",
+    "tags": [
+      "wipe",
+      "damage",
+      "placement"
+    ],
+    "image": "Majors21.png"
+  },
+  {
+    "designation": "Major",
+    "suit": "",
+    "name": "The World",
+    "upright": "Put a counter on The World, then deal damage to each opponent equal to the number of counters on The World.",
+    "reversed": "Put 7 counters on The World. If there are 21 or more counters on The World, reverse it.",
+    "tags": [
+      "damage"
+    ],
+    "image": "Majors22.png"
+  },
+  {
+    "designation": "Minor",
+    "suit": "Pentacles",
+    "name": "Ace of Pentacles",
+    "upright": "Take 2 damage. The next time you place a card, draw two.",
+    "reversed": "Dismiss a non-Wand, non-Pentacle card. (Major cards have no suit.)",
+    "tags": [
+      "cards",
+      "control"
+    ],
+    "image": "Pentacles01.png"
+  },
+  {
+    "designation": "Minor",
+    "suit": "Pentacles",
+    "name": "2 of Pentacles",
+    "upright": "Deal damage to a player equal to the number of cards in their hand.",
+    "reversed": "Exchange the positions of two cards. If both cards are on spreads other than yours, draw a card. (You may reverse cards when you exchange them.)",
+    "tags": [
+      "damage",
+      "cardhate",
+      "control",
+      "cards",
+      "exchange"
+    ],
+    "image": "Pentacles02.png"
+  },
+  {
+    "designation": "Minor",
+    "suit": "Pentacles",
+    "name": "3 of Pentacles",
+    "upright": "Choose a player to reveal their hand. Choose a card from it. That player discards that card.",
+    "reversed": "Deal damage to each player equal to 5 minus the number of cards they have in hand. (\"Each player\" includes you. Damage cannot be negative.)",
+    "tags": [
+      "discard",
+      "cards",
+      "damage"
+    ],
+    "image": "Pentacles03.png"
+  },
+  {
+    "designation": "Minor",
+    "suit": "Pentacles",
+    "name": "4 of Pentacles",
+    "upright": "Dismiss this card. Take a card and put it on your spread. At the end of your next turn, dismiss that card.",
+    "reversed": "Deal 2 damage to any number of players, then those players each draw a card.",
+    "tags": [
+      "cards",
+      "damage",
+      "theft",
+      "politics"
+    ],
+    "image": "Pentacles04.png"
+  },
+  {
+    "designation": "Minor",
+    "suit": "Pentacles",
+    "name": "5 of Pentacles",
+    "upright": "Each opponent with a Major card or a Swords card on their spread discards a card.",
+    "reversed": "If you have fewer than 2 cards in hand, draw until you have 2 cards in hand.",
+    "tags": [
+      "discard",
+      "cards"
+    ],
+    "image": "Pentacles05.png"
+  },
+  {
+    "designation": "Minor",
+    "suit": "Pentacles",
+    "name": "6 of Pentacles",
+    "upright": "Gain life equal to the number of cards you have in hand.",
+    "reversed": "Each opponent may give you a card from their hand. If they do not, they take 3 damage.",
+    "tags": [
+      "lifegain",
+      "cards",
+      "damage"
+    ],
+    "image": "Pentacles06.png"
+  },
+  {
+    "designation": "Minor",
+    "suit": "Pentacles",
+    "name": "7 of Pentacles",
+    "upright": "Put a counter on this card. You may dismiss this card. If you do, your life total becomes equal to 7 times the number of counters on this card.",
+    "reversed": "Choose a player. That player discards their hand, then draws that many cards minus 1. (This number cannot be negative.)",
+    "tags": [
+      "lifegain",
+      "discard",
+      "cards"
+    ],
+    "image": "Pentacles07.png"
+  },
+  {
+    "designation": "Minor",
+    "suit": "Pentacles",
+    "name": "8 of Pentacles",
+    "upright": "Copy an effect of a card on another player's spread. (You may choose either effect on the card.)",
+    "reversed": "You may reveal a Major card or Pentacles card from your hand. If you do, place it.",
+    "tags": [
+      "copy",
+      "placement"
+    ],
+    "image": "Pentacles08.png"
+  },
+  {
+    "designation": "Minor",
+    "suit": "Pentacles",
+    "name": "9 of Pentacles",
+    "upright": "Until the end of this turn, whenever you place a card, you may draw a card.",
+    "reversed": "Return any number of cards from your memory to your hand. Take damage equal to the number of cards returned.",
+    "tags": [
+      "cards",
+      "memory"
+    ],
+    "image": "Pentacles09.png"
+  },
+  {
+    "designation": "Minor",
+    "suit": "Pentacles",
+    "name": "10 of Pentacles",
+    "upright": "Place a card from your memory.",
+    "reversed": "Exile up to three cards from a player's memory.",
+    "tags": [
+      "placement",
+      "memory",
+      "control"
+    ],
+    "image": "Pentacles10.png"
+  },
+  {
+    "designation": "Minor",
+    "suit": "Pentacles",
+    "name": "Page of Pentacles",
+    "upright": "Reveal any number of cards from your hand. For each Pentacles card you revealed plus each Pentacles card on your spread, deal 2 damage to a player and gain 1 life.",
+    "reversed": "Exile up to three cards from your memory. Deal 1 damage to a player for each card exiled this way.",
+    "tags": [
+      "damage",
+      "lifegain"
+    ],
+    "image": "Pentacles11.png"
+  },
+  {
+    "designation": "Minor",
+    "suit": "Pentacles",
+    "name": "Knight of Pentacles",
+    "upright": "You may place a card in your Future position. You may exchange its position with another card on your spread. (You may reverse cards when you exchange them.)",
+    "reversed": "Silence all cards in the same zone as this one. (Including this card and those on other players' spreads.)",
+    "tags": [
+      "placement",
+      "control"
+    ],
+    "image": "Pentacles12.png"
+  },
+  {
+    "designation": "Minor",
+    "suit": "Pentacles",
+    "name": "Queen of Pentacles",
+    "upright": "Move 3 cards from your library to your memory. The next time you would place a card, you may place a card from your memory instead.",
+    "reversed": "Deal 2 damage to a player, then gain life equal to the damage dealt this way.",
+    "tags": [
+      "mill",
+      "memory",
+      "damage",
+      "lifegain"
+    ],
+    "image": "Pentacles13.png"
+  },
+  {
+    "designation": "Minor",
+    "suit": "Pentacles",
+    "name": "King of Pentacles",
+    "upright": "Dismiss all Major cards, then dismiss this card. For each card dismissed this way, its player may draw a card.",
+    "reversed": "Dismiss all Minor cards. For each card dismissed this way, its player may draw a card. (\"All cards\" includes this card.)",
+    "tags": [
+      "wipe",
+      "cards"
+    ],
+    "image": "Pentacles14.png"
+  },
+  {
+    "designation": "Minor",
+    "suit": "Swords",
+    "name": "Ace of Swords",
+    "upright": "Choose Wands, Cups, or Swords. For each card of the chosen suit, deal 2 damage to its player. (Including cards on your spread.)",
+    "reversed": "Dismiss a card. Its player may place another card in its place.",
+    "tags": [
+      "damage",
+      "control",
+      "placement"
+    ],
+    "image": "Swords01.png"
+  },
+  {
+    "designation": "Minor",
+    "suit": "Swords",
+    "name": "2 of Swords",
+    "upright": "Choose a player to exchange the positions of any cards on their spread. (Players may reverse cards when they exchange their positions.)",
+    "reversed": "Reverse all cards. (Including this card, rotate them 180 degrees.)",
+    "tags": [
+      "control",
+      "politics",
+      "reverse",
+      "exchange"
+    ],
+    "image": "Swords02.png"
+  },
+  {
+    "designation": "Minor",
+    "suit": "Swords",
+    "name": "3 of Swords",
+    "upright": "Silence a card. (The next time it would trigger, it does not.)",
+    "reversed": "Prevent the next instance of damage you would take.",
+    "tags": [
+      "control",
+      "protection"
+    ],
+    "image": "Swords03.png"
+  },
+  {
+    "designation": "Minor",
+    "suit": "Swords",
+    "name": "4 of Swords",
+    "upright": "Exchange a card on your spread with a card on another player's spread. (You may reverse those cards.)",
+    "reversed": "Deal 3 damage to the player with the most life. (In the event of a tie, you choose which player.)",
+    "tags": [
+      "theft",
+      "damage",
+      "exchange"
+    ],
+    "image": "Swords04.png"
+  },
+  {
+    "designation": "Minor",
+    "suit": "Swords",
+    "name": "5 of Swords",
+    "upright": "Dismiss this card, then dismiss any other card.",
+    "reversed": "Choose another player. You and that player each draw a card.",
+    "tags": [
+      "control",
+      "politics",
+      "cards"
+    ],
+    "image": "Swords05.png"
+  },
+  {
+    "designation": "Minor",
+    "suit": "Swords",
+    "name": "6 of Swords",
+    "upright": "Dismiss a Wand.",
+    "reversed": "Name a card. Cards with the chosen name cannot be dismissed until your next turn.",
+    "tags": [
+      "control"
+    ],
+    "image": "Swords06.png"
+  },
+  {
+    "designation": "Minor",
+    "suit": "Swords",
+    "name": "7 of Swords",
+    "upright": "Dismiss this card, then take any card and place it in this card’s position. (You may reverse it. It does not trigger.)",
+    "reversed": "Reverse a card.",
+    "tags": [
+      "theft",
+      "reverse"
+    ],
+    "image": "Swords07.png"
+  },
+  {
+    "designation": "Minor",
+    "suit": "Swords",
+    "name": "8 of Swords",
+    "upright": "Dismiss a card on the spread of the player with the most life. (In the event of a tie, you choose which player.)",
+    "reversed": "Reverse a card.",
+    "tags": [
+      "control",
+      "reverse"
+    ],
+    "image": "Swords08.png"
+  },
+  {
+    "designation": "Minor",
+    "suit": "Swords",
+    "name": "9 of Swords",
+    "upright": "The next time you would place a card, you may dismiss a card instead.",
+    "reversed": "Reverse a card.",
+    "tags": [
+      "control",
+      "reverse"
+    ],
+    "image": "Swords09.png"
+  },
+  {
+    "designation": "Minor",
+    "suit": "Swords",
+    "name": "10 of Swords",
+    "upright": "Exchange a card on your spread with a card on another player's spread. (You may reverse those cards.)",
+    "reversed": "Shuffle up to 3 cards from your memory into your library.",
+    "tags": [
+      "theft",
+      "memory",
+      "exchange"
+    ],
+    "image": "Swords10.png"
+  },
+  {
+    "designation": "Minor",
+    "suit": "Swords",
+    "name": "Page of Swords",
+    "upright": "Choose a number from 0 to 3. Each player draws that many cards. (Including you.)",
+    "reversed": "For each player, silence a card on that player's spread. (The next time it would trigger, they do not.)",
+    "tags": [
+      "cards",
+      "politics"
+    ],
+    "image": "Swords11.png"
+  },
+  {
+    "designation": "Minor",
+    "suit": "Swords",
+    "name": "Knight of Swords",
+    "upright": "The next time you place a card, you may trigger it immediately then silence it. (The next time it would trigger, it doesn't.)",
+    "reversed": "Each player simultaneously chooses a number. Deal damage to each player equal to the number they chose. Dismiss a card on the spread of each player who chose the smallest number.",
+    "tags": [
+      "damage",
+      "control",
+      "minigame"
+    ],
+    "image": "Swords12.png"
+  },
+  {
+    "designation": "Minor",
+    "suit": "Swords",
+    "name": "Queen of Swords",
+    "upright": "Dismiss a card from each player's spread. (Including yours.)",
+    "reversed": "Name a card. Cards with the chosen name do not trigger until your next turn.",
+    "tags": [
+      "control"
+    ],
+    "image": "Swords13.png"
+  },
+  {
+    "designation": "Minor",
+    "suit": "Swords",
+    "name": "King of Swords",
+    "upright": "Dismiss all cards. (Including this one.)",
+    "reversed": "You may dismiss any number of cards on your spread. Each opponent dismisses that many cards on their spread.",
+    "tags": [
+      "wipe"
+    ],
+    "image": "Swords14.png"
+  },
+  {
+    "designation": "Minor",
+    "suit": "Wands",
+    "name": "Ace of Wands",
+    "upright": "Exile the top 3 cards of your library face up. Until the end of this turn, whenever you place a card, you may place one of those cards instead.",
+    "reversed": "Dismiss a card on your spread and place a card.",
+    "tags": [
+      "cards",
+      "placement"
+    ],
+    "image": "Wands01.png"
+  },
+  {
+    "designation": "Minor",
+    "suit": "Wands",
+    "name": "2 of Wands",
+    "upright": "Until the end of this turn, the next time a you would deal damage, deal double that damage instead. (This can stack.)",
+    "reversed": "Place a card. The next time you would place a card, do not.",
+    "tags": [
+      "multiplier",
+      "placement"
+    ],
+    "image": "Wands02.png"
+  },
+  {
+    "designation": "Minor",
+    "suit": "Wands",
+    "name": "3 of Wands",
+    "upright": "Deal 2 damage to a player if this card is in the Past position, 3 damage if this card is in the Present position, or 4 damage if this card is in the Future position.",
+    "reversed": "Dismiss a Minor card. Its player reveals the top card of their library. If it’s a Minor card, they may place it in the same position.",
+    "tags": [
+      "damage",
+      "control"
+    ],
+    "image": "Wands03.png"
+  },
+  {
+    "designation": "Minor",
+    "suit": "Wands",
+    "name": "4 of Wands",
+    "upright": "Dismiss this card, then place a card. Each player discards their hand then draws 3 cards.",
+    "reversed": "You may reveal any number of cards in your hand. Deal 2 damage to a player for each Wand you reveal plus each Wand on your spread. (Including this one.)",
+    "tags": [
+      "placement",
+      "cards",
+      "damage"
+    ],
+    "image": "Wands04.png"
+  },
+  {
+    "designation": "Minor",
+    "suit": "Wands",
+    "name": "5 of Wands",
+    "upright": "Deal 3 damage to a player. Flip this card face-down. (When you turn a silenced face-down card face-up, keep the silence counter on it and don't trigger it.)",
+    "reversed": "Deal 1 damage to each opponent.",
+    "tags": [
+      "face-down",
+      "damage"
+    ],
+    "image": "Wands05.png"
+  },
+  {
+    "designation": "Minor",
+    "suit": "Wands",
+    "name": "6 of Wands",
+    "upright": "Trigger another card on your spread. (Trigger the active effect.)",
+    "reversed": "Silence a card on your spread. (The next time it would trigger, it doesn't.)",
+    "tags": [
+      "copy",
+      "control"
+    ],
+    "image": "Wands06.png"
+  },
+  {
+    "designation": "Minor",
+    "suit": "Wands",
+    "name": "7 of Wands",
+    "upright": "Until your next turn, whenever a card on your spread is dismissed, deal 5 damage to any player.",
+    "reversed": "Discard a card. If you do, deal 4 damage to a player.",
+    "tags": [
+      "protection",
+      "damage"
+    ],
+    "image": "Wands07.png"
+  },
+  {
+    "designation": "Minor",
+    "suit": "Wands",
+    "name": "8 of Wands",
+    "upright": "Deal 3 damage to a player, then replace this card with one from your hand or library. (Dismiss this card. The new card does not trigger.)",
+    "reversed": "Dismiss a card. Until your next turn, whenever its player would place a card, they may place that card instead.",
+    "tags": [
+      "damage",
+      "placement",
+      "control"
+    ],
+    "image": "Wands08.png"
+  },
+  {
+    "designation": "Minor",
+    "suit": "Wands",
+    "name": "9 of Wands",
+    "upright": "Deal damage to a player equal to the total number of damage you've dealt this turn, plus 1.",
+    "reversed": "You may exile a card from your memory and return a card from your memory to your hand.",
+    "tags": [
+      "multiplier",
+      "memory"
+    ],
+    "image": "Wands09.png"
+  },
+  {
+    "designation": "Minor",
+    "suit": "Wands",
+    "name": "10 of Wands",
+    "upright": "Deal 3 damage to a player for each Cups card on their spread.",
+    "reversed": "Deal 2 damage to a player for each Major card on their spread.",
+    "tags": [
+      "damage"
+    ],
+    "image": "Wands10.png"
+  },
+  {
+    "designation": "Minor",
+    "suit": "Wands",
+    "name": "Page of Wands",
+    "upright": "Exchange this card with another card. (You may reverse this card and the exchanged card.)",
+    "reversed": "The next time you would place a card, you may deal 5 damage to any player instead.",
+    "tags": [
+      "exchange",
+      "damage"
+    ],
+    "image": "Wands11.png"
+  },
+  {
+    "designation": "Minor",
+    "suit": "Wands",
+    "name": "Knight of Wands",
+    "upright": "You may replace this card with one from your hand and trigger the new card. (Send this card to memory.)",
+    "reversed": "Trigger another card on your spread twice, then silence that card. (The next time it would trigger, it doesn't.)",
+    "tags": [
+      "placement",
+      "multiplier",
+      "copy"
+    ],
+    "image": "Wands12.png"
+  },
+  {
+    "designation": "Minor",
+    "suit": "Wands",
+    "name": "Queen of Wands",
+    "upright": "Choose Wands, Cups, or Pentacles. Dismiss all cards of that suit. Dismiss this card.",
+    "reversed": "The next time you trigger a card, trigger it an additional time.",
+    "tags": [
+      "wipe",
+      "multiplier"
+    ],
+    "image": "Wands13.png"
+  },
+  {
+    "designation": "Minor",
+    "suit": "Wands",
+    "name": "King of Wands",
+    "upright": "Deal 3 damage to each opponent.",
+    "reversed": "Exile the top 2 cards of your library face-up. Until the end of this turn, whenever you would place a card, you may place one of those cards instead.",
+    "tags": [
+      "damage",
+      "cards"
+    ],
+    "image": "Wands14.png"
+  },
+  {
+    "designation": "Minor",
+    "suit": "Cups",
+    "name": "Ace of Cups",
+    "upright": "Look at the top card of your library. You may put it on the top or bottom of your library. Draw a card.",
+    "reversed": "You may place a card face-down. (Face-down cards may be flipped face-up and triggered at any time.)",
+    "tags": [
+      "cards",
+      "face-down",
+      "placement"
+    ],
+    "image": "Cups01.png"
+  },
+  {
+    "designation": "Minor",
+    "suit": "Cups",
+    "name": "2 of Cups",
+    "upright": "Draw a card for each Cup on your spread. You may reverse this card.",
+    "reversed": "Deal damage to an opponent equal to the number of cards in your hand.",
+    "tags": [
+      "cards",
+      "damage"
+    ],
+    "image": "Cups02.png"
+  },
+  {
+    "designation": "Minor",
+    "suit": "Cups",
+    "name": "3 of Cups",
+    "upright": "Trigger each other card on your spread in any order. (Not including this one.)",
+    "reversed": "Flip a card on your spread face-down. (Face-down cards may be flipped face-up and triggered at any time.)",
+    "tags": [
+      "multiplier",
+      "face-down"
+    ],
+    "image": "Cups03.png"
+  },
+  {
+    "designation": "Minor",
+    "suit": "Cups",
+    "name": "4 of Cups",
+    "upright": "You may place a card face-down. (Face-down cards may be flipped face-up and triggered at any time.)",
+    "reversed": "Return all cards on your spread to your hand. (Including this one.)",
+    "tags": [
+      "placement",
+      "face-down",
+      "cards"
+    ],
+    "image": "Cups04.png"
+  },
+  {
+    "designation": "Minor",
+    "suit": "Cups",
+    "name": "5 of Cups",
+    "upright": "Copy an effect that has triggered this turn.",
+    "reversed": "You may shuffle your hand into your library and draw that many cards.",
+    "tags": [
+      "copy",
+      "cards"
+    ],
+    "image": "Cups05.png"
+  },
+  {
+    "designation": "Minor",
+    "suit": "Cups",
+    "name": "6 of Cups",
+    "upright": "Restart the turn from the Past. Silence this card. (The next time it would trigger, it does not.)",
+    "reversed": "Copy an effect of a card. (You may choose either effect on the card.)",
+    "tags": [
+      "multiplier",
+      "copy"
+    ],
+    "image": "Cups06.png"
+  },
+  {
+    "designation": "Minor",
+    "suit": "Cups",
+    "name": "7 of Cups",
+    "upright": "Choose 2 cards on the same spread. That player chooses a card from among those. Dismiss that card.",
+    "reversed": "Deal damage to a player equal to the number of cards in your hand.",
+    "tags": [
+      "control",
+      "damage",
+      "cards"
+    ],
+    "image": "Cups07.png"
+  },
+  {
+    "designation": "Minor",
+    "suit": "Cups",
+    "name": "8 of Cups",
+    "upright": "For each opponent, choose a card on their spread. Return the chosen cards to their players' hands, then dismiss this card.",
+    "reversed": "Flip a card on your spread face-down or place a card face-down. (Face-down cards may be turned face-up and triggered at any time.)",
+    "tags": [
+      "control",
+      "face-down",
+      "placement"
+    ],
+    "image": "Cups08.png"
+  },
+  {
+    "designation": "Minor",
+    "suit": "Cups",
+    "name": "9 of Cups",
+    "upright": "You may end the turn and flip this card face-down. (When you flip a silenced face-down card face-up, keep the silence counter on it and don't trigger it.)",
+    "reversed": "Copy an effect of a card. (You may choose either effect on the card.)",
+    "tags": [
+      "face-down",
+      "copy"
+    ],
+    "image": "Cups09.png"
+  },
+  {
+    "designation": "Minor",
+    "suit": "Cups",
+    "name": "10 of Cups",
+    "upright": "You may reveal any number of cards in your hand. Draw a card for each Cup you reveal plus each Cup on your spread. (Including this one.)",
+    "reversed": "Dismiss this card. Return all cards to their players' hands.",
+    "tags": [
+      "cards",
+      "wipe"
+    ],
+    "image": "Cups10.png"
+  },
+  {
+    "designation": "Minor",
+    "suit": "Cups",
+    "name": "Page of Cups",
+    "upright": "Each player reveals the top card of their library. You may draw a card.",
+    "reversed": "You may place a card face-down. (Face-down cards may be flipped face-up and triggered at any time.)",
+    "tags": [
+      "cards",
+      "control",
+      "politics"
+    ],
+    "image": "Cups11.png"
+  },
+  {
+    "designation": "Minor",
+    "suit": "Cups",
+    "name": "Knight of Cups",
+    "upright": "Copy an effect of a card in your memory. (You may choose either effect on the card.)",
+    "reversed": "Choose a player. That player puts 3 cards from their library into their memory.",
+    "tags": [
+      "copy",
+      "memory",
+      "mill"
+    ],
+    "image": "Cups12.png"
+  },
+  {
+    "designation": "Minor",
+    "suit": "Cups",
+    "name": "Queen of Cups",
+    "upright": "Name a card. Until your next turn, cards with the chosen name cannot be dismissed, exiled, or placed.",
+    "reversed": "Return any number of cards from your memory to your hand, then discard that many cards.",
+    "tags": [
+      "protection",
+      "control",
+      "memory",
+      "cards"
+    ],
+    "image": "Cups13.png"
+  },
+  {
+    "designation": "Minor",
+    "suit": "Cups",
+    "name": "King of Cups",
+    "upright": "Each player may draw a card. Until your next turn, each player who draws a card this way may not damage you or dismiss cards on your spread. (\"Each player\" includes you.)",
+    "reversed": "Flip any number of cards on your spread face-down. (Face-down cards may be turned face-up and triggered at any time.)",
+    "tags": [
+      "politics",
+      "protection",
+      "cards",
+      "face-down"
+    ],
+    "image": "Cups14.png"
+  }
+]
