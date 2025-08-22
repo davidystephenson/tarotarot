@@ -3,8 +3,26 @@ import { useState } from 'react'
 
 export default function App () {
   const [query, setQuery] = useState('')
+  const [tag, setTag] = useState('')
+  const tags = cards.flatMap(card => card.tags)
+  const tagSet = new Set(tags)
+  const uniqueTags = Array.from(tagSet).sort()
+  const tagOptions = uniqueTags.map(tag => {
+    return (
+      <option key={tag} value={tag}>{tag}</option>
+    )
+  })
   const lowerQuery = query.toLowerCase()
   const filtered = cards.filter(card => {
+    const lowerTags = card.tags.map(tag => tag.toLowerCase())
+    if (tag !== '') {
+      const lowerTag = tag.toLowerCase()
+      const tagged = lowerTags.includes(lowerTag)
+      if (!tagged) return false
+    }
+    if (query === '') {
+      return true
+    }
     const lowerDesignation = card.designation.toLowerCase()
     const designated = lowerDesignation.includes(lowerQuery)
     if (designated) return true
@@ -17,7 +35,6 @@ export default function App () {
     const lowerReverse = card.reversed.toLowerCase()
     const reversed = lowerReverse.includes(lowerQuery)
     if (reversed) return true
-    const lowerTags = card.tags.map(tag => tag.toLowerCase())
     return lowerTags.some(tag => tag.includes(lowerQuery))
   })
   const rows = filtered.map(card => {
@@ -39,6 +56,13 @@ export default function App () {
         value={query}
         onChange={event => setQuery(event.target.value)}
       />
+      <select
+        value={tag}
+        onChange={event => setTag(event.target.value)}
+      >
+        <option value=''>All tags</option>
+        {tagOptions}
+      </select>
       <table>
         <thead>
           <tr>
