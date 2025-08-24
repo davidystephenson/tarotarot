@@ -1,12 +1,17 @@
 import cards from './cards.json'
 import { useState, type ChangeEvent } from 'react'
 import { jsPDF } from "jspdf";
+// @ts-expect-error
+import "@fontsource/faculty-glyphic"
+import searchIcon from './searchicon.svg'
+
 
 export default function App() {
   const [query, setQuery] = useState('')
   const [tags, setTags] = useState<string[]>([])
   const [selectedNames, setSelectedNames] = useState<string[]>([])
   const [printing, setPrinting] = useState(false)
+  const [selectText, setSelectText] = useState('');
   const allTags = cards.flatMap(card => card.tags)
   const tagSet = new Set(allTags)
   const uniqueTags = Array.from(tagSet).sort()
@@ -44,22 +49,29 @@ export default function App() {
     return lowerCardTags.some(tag => tag.includes(lowerQuery))
   })
   const selectedItems = selectedNames.map((name) => {
-    const card = cards.find(card => card.name === name)
+    const lowerName = name.toLowerCase()
+    const card = cards.find(card => {
+      const lowerCardName = card.name.toLowerCase()
+      return lowerCardName === lowerName
+    })
     if (!card) {
-      throw new Error(`Card ${name} not found`)
+      return
     }
     function handleUnselect() {
-      const newSelectedNames = selectedNames.filter(selectedName => selectedName !== name)
+      const lowerName = name.toLowerCase()
+      const newSelectedNames = selectedNames.filter(selectedName => {
+        const lowerSelectedName = selectedName.toLowerCase()
+        return lowerSelectedName !== lowerName
+      })
       console.log('newSelectedNames', newSelectedNames)
       setSelectedNames(newSelectedNames)
     }
     return (
-      <div key={card.name}>
-        <div>{card.name}</div>
+      <div key={card.name} style={{ position: 'relative' }}>
         <div>
           <img src={card.image} height={300} width={180} />
         </div>
-        <button onClick={handleUnselect}>Unselect</button>
+        <button onClick={handleUnselect} style={{ position: 'absolute', top: 10, right: 10 }}>-</button>
       </div>
     )
   })
@@ -68,14 +80,20 @@ export default function App() {
       const newSelectedNames = [...selectedNames, card.name]
       setSelectedNames(newSelectedNames)
     }
+    function handleUnselect() {
+      const newSelectedNames = selectedNames.filter(selectedName => selectedName !== card.name)
+      console.log('newSelectedNames', newSelectedNames)
+      setSelectedNames(newSelectedNames)
+    }
     const selected = selectedNames.includes(card.name)
     return (
-      <div key={card.name}>
-        <div>{card.name}</div>
+      <div key={card.name} style={{ position: 'relative' }}>
         <div>
           <img src={card.image} height={300} width={180} />
         </div>
-        {!selected && <button onClick={handleSelect}>Select</button>}
+        {selected
+          ? <button style={{ position: 'absolute', top: 10, right: 10 }} onClick={handleUnselect}>-</button>
+          : <button style={{ position: 'absolute', top: 10, right: 10 }} onClick={handleSelect}>+</button>}
       </div>
     )
   })
@@ -140,33 +158,85 @@ export default function App() {
   };
   return (
     <>
-      <h1>Tarotarot</h1>
-      {selectedNames.length > 0 && (
-        <>
-          <h2>Selected ({selectedNames.length})</h2>
-          <div style={{ display: 'flex', flexWrap: 'wrap', marginBottom: '20px' }}>
-            {selectedItems}
-          </div>
-          <button style={{ marginBottom: '50px' }} onClick={handleCopy}>Copy to Clipboard</button>
-          <button disabled={printing} onClick={handlePrint}>{printing ? 'Printing...' : 'Print'}</button>
-        </>
-      )}
-      <h2>Search</h2>
-      <input
-        placeholder='filter'
-        value={query}
-        onChange={event => setQuery(event.target.value)}
+      <img
+        style={{ width: '100%', marginTop: '90px' }}
+        src='https://i.postimg.cc/5yKjK8dm/cbc6aa27699d36424fcccfe2ec250bd620e1534e.webp'
       />
-      <select
-        value={tags}
-        onChange={handleTagSelect}
-        multiple
+      <div
+        style={{
+          alignItems: 'center',
+          background: '#081e29',
+          gap: '10px',
+          display: 'flex',
+          justifyContent: 'center',
+          left: 0,
+          padding: '10px',
+          position: 'fixed',
+          top: 0,
+          width: 'calc(100% - 20px)',
+          zIndex: '1'
+        }}
       >
-        <option value='All cards'>All cards</option>
-        {tagOptions}
-      </select>
-      <div style={{ display: 'flex', flexWrap: 'wrap' }}>
-        {items}
+        <img
+          height={50}
+          src={searchIcon}
+          width={50}
+        />
+        <input
+          placeholder='Search'
+          value={query}
+          onChange={event => setQuery(event.target.value)}
+          style={{
+            background: 'transparent',
+            color: 'white',
+            border: 0,
+            width: '100%',
+            fontSize: '32px',
+            fontFamily: 'Faculty Glyphic'
+          }}
+        />
+        <select
+          value={tags}
+          onChange={handleTagSelect}
+          multiple
+          style={{ minWidth: '100px' }}
+        >
+          <option value='All cards'>All cards</option>
+          {tagOptions}
+        </select>
+      </div>
+      <div style={{ padding: '10px', fontFamily: 'Faculty Glyphic' }}>
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+          <textarea
+            value={selectText}
+            placeholder='Import cards (will delete selection)'
+            onChange={event => {
+              setSelectText(event.target.value)
+              setSelectedNames(event.target.value.split('\n'))
+            }}
+            rows={5}
+            style={{ marginBottom: '20px' }}
+          />
+          {selectedNames.length > 0 && (
+            <>
+              <h2>Selected ({selectedNames.length})</h2>
+              <div style={{ display: 'flex', flexWrap: 'wrap', marginBottom: '20px' }}>
+                {selectedItems}
+              </div>
+              <div style={{ display: 'flex', alignItems: 'center', marginBottom: '50px' }}>
+                <div>
+                  <button onClick={handleCopy}>Copy to Clipboard</button>
+                </div>
+                <div>
+                  <button disabled={printing} onClick={handlePrint}>{printing ? 'Printing...' : 'Print'}</button>
+                </div>
+              </div>
+            </>
+          )}
+        </div>
+        <div style={{ display: 'flex', flexWrap: 'wrap', gap: '10px', justifyContent: 'center' }}>
+          {items}
+        </div>
       </div>
     </>
   )
