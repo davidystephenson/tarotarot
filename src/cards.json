@@ -3,13 +3,13 @@
     "designation": "Major",
     "suit": "",
     "name": "The Fool",
-    "upright": "Exile the top card of each player's library face-up. You may place one of those cards. (\"Each player's library\" includes yours.)",
+    "upright": "Exile the top card of each player's deck face-up. You may place one of those cards. (\"Each player's deck\" includes yours.)",
     "reversed": "Deal 5 damage to each player. (Including you.)",
     "tags": [
       "damage",
       "placement"
     ],
-    "image": "Majors01.png"
+    "image": "https://i.postimg.cc/m1kwrpPy/Majors01.png"
   },
   {
     "designation": "Major",
@@ -22,20 +22,20 @@
       "cards",
       "wincon"
     ],
-    "image": "Majors02.png"
+    "image": "https://i.postimg.cc/K48QQj03/Majors02.png"
   },
   {
     "designation": "Major",
     "suit": "",
     "name": "The High Priestess",
-    "upright": "Name a card. Choose a player to reveal cards from their library until they reveal the named card. If they do, put the revealed cards in their memory. Otherwise, that player shuffles.",
+    "upright": "Name a card. Choose a player to reveal cards from their deck until they reveal the named card. If they do, put the revealed cards in their memory. Otherwise, that player shuffles.",
     "reversed": "Place any number of cards face-down. You may replace this card. (If you do, dismiss this card. Face-down cards may be flipped face-up and triggered at any time.)",
     "tags": [
       "mill",
       "face-down",
       "minigame"
     ],
-    "image": "Majors03.png"
+    "image": "https://i.postimg.cc/0zwVm4ct/Majors03.png"
   },
   {
     "designation": "Major",
@@ -48,7 +48,7 @@
       "theft",
       "memory"
     ],
-    "image": "Majors04.png"
+    "image": "https://i.postimg.cc/TyvCccsT/Majors04.png"
   },
   {
     "designation": "Major",
@@ -61,7 +61,7 @@
       "theft",
       "placement"
     ],
-    "image": "Majors05.png"
+    "image": "https://i.postimg.cc/KK7QpMXB/Majors05.png"
   },
   {
     "designation": "Major",
@@ -73,7 +73,7 @@
       "wipe",
       "refresh"
     ],
-    "image": "Majors06.png"
+    "image": "https://i.postimg.cc/1f4CRX61/Majors06.png"
   },
   {
     "designation": "Major",
@@ -87,7 +87,7 @@
       "life",
       "damage"
     ],
-    "image": "Majors07.png"
+    "image": "https://postimg.cc/crjDvWMg"
   },
   {
     "designation": "Major",
@@ -99,7 +99,7 @@
       "theft",
       "control"
     ],
-    "image": "Majors08.png"
+    "image": "https://postimg.cc/jDpkFTD0"
   },
   {
     "designation": "Major",
@@ -110,19 +110,19 @@
     "tags": [
       "damage"
     ],
-    "image": "Majors09.png"
+    "image": "https://postimg.cc/64pHv5mR"
   },
   {
     "designation": "Major",
     "suit": "",
     "name": "The Hermit",
-    "upright": "You may dismiss this card to reveal cards from your library until you reveal a Major card. You may replace this card with that card. If you do not, draw it. Shuffle your library.",
+    "upright": "You may dismiss this card to reveal cards from your deck until you reveal a Major card. You may replace this card with that card. If you do not, draw it. Shuffle your deck.",
     "reversed": "Each player chooses up to 2 cards. Dismiss all other cards.",
     "tags": [
       "placement",
       "wipe"
     ],
-    "image": "Majors10.png"
+    "image": "https://postimg.cc/Wt5YPgd7"
   },
   {
     "designation": "Major",
@@ -135,7 +135,7 @@
       "life",
       "minigame"
     ],
-    "image": "Majors11.png"
+    "image": "https://postimg.cc/Dm6HyRML"
   },
   {
     "designation": "Major",
@@ -147,7 +147,7 @@
       "damage",
       "life"
     ],
-    "image": "Majors12.png"
+    "image": "https://postimg.cc/TpPSyQzS"
   },
   {
     "designation": "Major",
@@ -159,7 +159,7 @@
       "placement",
       "protection"
     ],
-    "image": "Majors13.png"
+    "image": "https://postimg.cc/CRBQ75Ls"
   },
   {
     "designation": "Major",
@@ -171,7 +171,7 @@
       "placement",
       "damage"
     ],
-    "image": "Majors14.png"
+    "image": "https://postimg.cc/mzNq9n2x"
   },
   {
     "designation": "Major",
@@ -183,7 +183,7 @@
       "damage",
       "life"
     ],
-    "image": "Majors15.png"
+    "image": "https://postimg.cc/p5WSJBpm"
   },
   {
     "designation": "Major",
@@ -196,7 +196,7 @@
       "life",
       "memory"
     ],
-    "image": "Majors16.png"
+    "image": "https://postimg.cc/XX4tWnQn"
   },
   {
     "designation": "Major",
@@ -209,7 +209,7 @@
       "face-down",
       "minigame"
     ],
-    "image": "Majors17.png"
+    "image": "https://postimg.cc/mPJ0WM6n"
   },
   {
     "designation": "Major",
@@ -223,20 +223,20 @@
       "multiplier",
       "damage"
     ],
-    "image": "Majors18.png"
+    "image": "https://postimg.cc/949smM6Q"
   },
   {
     "designation": "Major",
     "suit": "",
     "name": "The Moon",
     "upright": "Return all other cards to their players' hands, then exile this card. Until the end of your next turn, players place cards face-down.",
-    "reversed": "Each opponent moves a number of cards equal to the number of cards on their spread plus the number of cards in their hand from their library to their memory.",
+    "reversed": "Each opponent moves a number of cards equal to the number of cards on their spread plus the number of cards in their hand from their deck to their memory.",
     "tags": [
       "wipe",
       "face-down",
       "mill"
     ],
-    "image": "Majors19.png"
+    "image": "https://postimg.cc/N9wS5tt7"
   },
   {
     "designation": "Major",
@@ -249,7 +249,7 @@
       "cardhate",
       "damage"
     ],
-    "image": "Majors20.png"
+    "image": "https://postimg.cc/NLxq2K5y"
   },
   {
     "designation": "Major",
@@ -262,7 +262,7 @@
       "damage",
       "placement"
     ],
-    "image": "Majors21.png"
+    "image": "https://postimg.cc/ykYqm7ZL"
   },
   {
     "designation": "Major",
@@ -273,7 +273,7 @@
     "tags": [
       "damage"
     ],
-    "image": "Majors22.png"
+    "image": "https://postimg.cc/TpkzQBjf"
   },
   {
     "designation": "Minor",
@@ -285,7 +285,7 @@
       "cards",
       "control"
     ],
-    "image": "Pentacles01.png"
+    "image": "https://postimg.cc/SnJwPVV8"
   },
   {
     "designation": "Minor",
@@ -300,7 +300,7 @@
       "cards",
       "exchange"
     ],
-    "image": "Pentacles02.png"
+    "image": "https://postimg.cc/RWDgnB7J"
   },
   {
     "designation": "Minor",
@@ -313,7 +313,7 @@
       "cards",
       "damage"
     ],
-    "image": "Pentacles03.png"
+    "image": "https://postimg.cc/YG1RVLJQ"
   },
   {
     "designation": "Minor",
@@ -327,7 +327,7 @@
       "theft",
       "politics"
     ],
-    "image": "Pentacles04.png"
+    "image": "https://postimg.cc/rRjJyXym"
   },
   {
     "designation": "Minor",
@@ -339,7 +339,7 @@
       "discard",
       "cards"
     ],
-    "image": "Pentacles05.png"
+    "image": "https://postimg.cc/bdPfvxNc"
   },
   {
     "designation": "Minor",
@@ -352,7 +352,7 @@
       "cards",
       "damage"
     ],
-    "image": "Pentacles06.png"
+    "image": "https://postimg.cc/kRvjVRs7"
   },
   {
     "designation": "Minor",
@@ -365,7 +365,7 @@
       "discard",
       "cards"
     ],
-    "image": "Pentacles07.png"
+    "image": "https://postimg.cc/XXf11tbt"
   },
   {
     "designation": "Minor",
@@ -377,7 +377,7 @@
       "copy",
       "placement"
     ],
-    "image": "Pentacles08.png"
+    "image": "https://postimg.cc/gn4SmRrD"
   },
   {
     "designation": "Minor",
@@ -389,7 +389,7 @@
       "cards",
       "memory"
     ],
-    "image": "Pentacles09.png"
+    "image": "https://postimg.cc/KK1s9zG5"
   },
   {
     "designation": "Minor",
@@ -402,7 +402,7 @@
       "memory",
       "control"
     ],
-    "image": "Pentacles10.png"
+    "image": "https://postimg.cc/3yzfzTWQ"
   },
   {
     "designation": "Minor",
@@ -414,7 +414,7 @@
       "damage",
       "lifegain"
     ],
-    "image": "Pentacles11.png"
+    "image": "https://postimg.cc/jwN3bFJw"
   },
   {
     "designation": "Minor",
@@ -426,13 +426,13 @@
       "placement",
       "control"
     ],
-    "image": "Pentacles12.png"
+    "image": "https://postimg.cc/p5HGXJD0"
   },
   {
     "designation": "Minor",
     "suit": "Pentacles",
     "name": "Queen of Pentacles",
-    "upright": "Move 3 cards from your library to your memory. The next time you would place a card, you may place a card from your memory instead.",
+    "upright": "Move 3 cards from your deck to your memory. The next time you would place a card, you may place a card from your memory instead.",
     "reversed": "Deal 2 damage to a player, then gain life equal to the damage dealt this way.",
     "tags": [
       "mill",
@@ -440,7 +440,7 @@
       "damage",
       "lifegain"
     ],
-    "image": "Pentacles13.png"
+    "image": "https://postimg.cc/XpWmV4LV"
   },
   {
     "designation": "Minor",
@@ -452,7 +452,7 @@
       "wipe",
       "cards"
     ],
-    "image": "Pentacles14.png"
+    "image": "https://postimg.cc/GHjNtVgv"
   },
   {
     "designation": "Minor",
@@ -465,7 +465,7 @@
       "control",
       "placement"
     ],
-    "image": "Swords01.png"
+    "image": "https://postimg.cc/NKfnHDZS"
   },
   {
     "designation": "Minor",
@@ -479,7 +479,7 @@
       "reverse",
       "exchange"
     ],
-    "image": "Swords02.png"
+    "image": "https://postimg.cc/RWsDQfBF"
   },
   {
     "designation": "Minor",
@@ -491,7 +491,7 @@
       "control",
       "protection"
     ],
-    "image": "Swords03.png"
+    "image": "https://postimg.cc/SXPHq9T5"
   },
   {
     "designation": "Minor",
@@ -504,7 +504,7 @@
       "damage",
       "exchange"
     ],
-    "image": "Swords04.png"
+    "image": "https://postimg.cc/Fk5qk4QV"
   },
   {
     "designation": "Minor",
@@ -517,7 +517,7 @@
       "politics",
       "cards"
     ],
-    "image": "Swords05.png"
+    "image": "https://postimg.cc/q6sF85JV"
   },
   {
     "designation": "Minor",
@@ -528,7 +528,7 @@
     "tags": [
       "control"
     ],
-    "image": "Swords06.png"
+    "image": "https://postimg.cc/dDrgPL8H"
   },
   {
     "designation": "Minor",
@@ -540,7 +540,7 @@
       "theft",
       "reverse"
     ],
-    "image": "Swords07.png"
+    "image": "https://postimg.cc/rKC6WKs0"
   },
   {
     "designation": "Minor",
@@ -552,7 +552,7 @@
       "control",
       "reverse"
     ],
-    "image": "Swords08.png"
+    "image": "https://postimg.cc/Wd2B7Tq9"
   },
   {
     "designation": "Minor",
@@ -564,20 +564,20 @@
       "control",
       "reverse"
     ],
-    "image": "Swords09.png"
+    "image": "https://postimg.cc/cvXV92Qd"
   },
   {
     "designation": "Minor",
     "suit": "Swords",
     "name": "10 of Swords",
     "upright": "Exchange a card on your spread with a card on another player's spread. (You may reverse those cards.)",
-    "reversed": "Shuffle up to 3 cards from your memory into your library.",
+    "reversed": "Shuffle up to 3 cards from your memory into your deck.",
     "tags": [
       "theft",
       "memory",
       "exchange"
     ],
-    "image": "Swords10.png"
+    "image": "https://postimg.cc/Hc7RLLFL"
   },
   {
     "designation": "Minor",
@@ -589,7 +589,7 @@
       "cards",
       "politics"
     ],
-    "image": "Swords11.png"
+    "image": "https://postimg.cc/k60rNSW8"
   },
   {
     "designation": "Minor",
@@ -602,7 +602,7 @@
       "control",
       "minigame"
     ],
-    "image": "Swords12.png"
+    "image": "https://postimg.cc/LgLcxsVW"
   },
   {
     "designation": "Minor",
@@ -613,7 +613,7 @@
     "tags": [
       "control"
     ],
-    "image": "Swords13.png"
+    "image": "https://postimg.cc/5jzW4PMm"
   },
   {
     "designation": "Minor",
@@ -624,19 +624,19 @@
     "tags": [
       "wipe"
     ],
-    "image": "Swords14.png"
+    "image": "https://postimg.cc/PPksPmXn"
   },
   {
     "designation": "Minor",
     "suit": "Wands",
     "name": "Ace of Wands",
-    "upright": "Exile the top 3 cards of your library face up. Until the end of this turn, whenever you place a card, you may place one of those cards instead.",
+    "upright": "Exile the top 3 cards of your deck face up. Until the end of this turn, whenever you place a card, you may place one of those cards instead.",
     "reversed": "Dismiss a card on your spread and place a card.",
     "tags": [
       "cards",
       "placement"
     ],
-    "image": "Wands01.png"
+    "image": "https://postimg.cc/hXsBFfqW"
   },
   {
     "designation": "Minor",
@@ -648,19 +648,19 @@
       "multiplier",
       "placement"
     ],
-    "image": "Wands02.png"
+    "image": "https://postimg.cc/4K3TXsJK"
   },
   {
     "designation": "Minor",
     "suit": "Wands",
     "name": "3 of Wands",
     "upright": "Deal 2 damage to a player if this card is in the Past position, 3 damage if this card is in the Present position, or 4 damage if this card is in the Future position.",
-    "reversed": "Dismiss a Minor card. Its player reveals the top card of their library. If it’s a Minor card, they may place it in the same position.",
+    "reversed": "Dismiss a Minor card. Its player reveals the top card of their deck. If it’s a Minor card, they may place it in the same position.",
     "tags": [
       "damage",
       "control"
     ],
-    "image": "Wands03.png"
+    "image": "https://postimg.cc/Y4yB9Z9d"
   },
   {
     "designation": "Minor",
@@ -673,7 +673,7 @@
       "cards",
       "damage"
     ],
-    "image": "Wands04.png"
+    "image": "https://postimg.cc/phhbnC5R"
   },
   {
     "designation": "Minor",
@@ -685,7 +685,7 @@
       "face-down",
       "damage"
     ],
-    "image": "Wands05.png"
+    "image": "https://postimg.cc/nM9psFqB"
   },
   {
     "designation": "Minor",
@@ -697,7 +697,7 @@
       "copy",
       "control"
     ],
-    "image": "Wands06.png"
+    "image": "https://postimg.cc/zVnNjxtf"
   },
   {
     "designation": "Minor",
@@ -709,20 +709,20 @@
       "protection",
       "damage"
     ],
-    "image": "Wands07.png"
+    "image": "https://postimg.cc/bsX8k7RM"
   },
   {
     "designation": "Minor",
     "suit": "Wands",
     "name": "8 of Wands",
-    "upright": "Deal 3 damage to a player, then replace this card with one from your hand or library. (Dismiss this card. The new card does not trigger.)",
+    "upright": "Deal 3 damage to a player, then replace this card with one from your hand or deck. (Dismiss this card. The new card does not trigger.)",
     "reversed": "Dismiss a card. Until your next turn, whenever its player would place a card, they may place that card instead.",
     "tags": [
       "damage",
       "placement",
       "control"
     ],
-    "image": "Wands08.png"
+    "image": "https://postimg.cc/JsMLdjv5"
   },
   {
     "designation": "Minor",
@@ -734,7 +734,7 @@
       "multiplier",
       "memory"
     ],
-    "image": "Wands09.png"
+    "image": "https://postimg.cc/MMNwsNJn"
   },
   {
     "designation": "Minor",
@@ -745,7 +745,7 @@
     "tags": [
       "damage"
     ],
-    "image": "Wands10.png"
+    "image": "https://postimg.cc/xJcY3Yhr"
   },
   {
     "designation": "Minor",
@@ -757,7 +757,7 @@
       "exchange",
       "damage"
     ],
-    "image": "Wands11.png"
+    "image": "https://postimg.cc/1VFQbByJ"
   },
   {
     "designation": "Minor",
@@ -770,44 +770,44 @@
       "multiplier",
       "copy"
     ],
-    "image": "Wands12.png"
+    "image": "https://postimg.cc/3kFKKtmq"
   },
   {
     "designation": "Minor",
     "suit": "Wands",
     "name": "Queen of Wands",
     "upright": "Choose Wands, Cups, or Pentacles. Dismiss all cards of that suit. Dismiss this card.",
-    "reversed": "The next time you trigger a card, trigger it an additional time.",
+    "reversed": "Until your next turn, the next time you trigger a card, trigger it an additional time.",
     "tags": [
       "wipe",
       "multiplier"
     ],
-    "image": "Wands13.png"
+    "image": "https://postimg.cc/KKcm4t58"
   },
   {
     "designation": "Minor",
     "suit": "Wands",
     "name": "King of Wands",
     "upright": "Deal 3 damage to each opponent.",
-    "reversed": "Exile the top 2 cards of your library face-up. Until the end of this turn, whenever you would place a card, you may place one of those cards instead.",
+    "reversed": "Exile the top 2 cards of your deck face-up. Until the end of this turn, whenever you would place a card, you may place one of those cards instead.",
     "tags": [
       "damage",
       "cards"
     ],
-    "image": "Wands14.png"
+    "image": "https://postimg.cc/yJfsRWfX"
   },
   {
     "designation": "Minor",
     "suit": "Cups",
     "name": "Ace of Cups",
-    "upright": "Look at the top card of your library. You may put it on the top or bottom of your library. Draw a card.",
+    "upright": "Look at the top card of your deck. You may put it on the top or bottom of your deck. Draw a card.",
     "reversed": "You may place a card face-down. (Face-down cards may be flipped face-up and triggered at any time.)",
     "tags": [
       "cards",
       "face-down",
       "placement"
     ],
-    "image": "Cups01.png"
+    "image": "https://postimg.cc/N9MT89Qg"
   },
   {
     "designation": "Minor",
@@ -819,7 +819,7 @@
       "cards",
       "damage"
     ],
-    "image": "Cups02.png"
+    "image": "https://postimg.cc/mPYQTWdG"
   },
   {
     "designation": "Minor",
@@ -831,7 +831,7 @@
       "multiplier",
       "face-down"
     ],
-    "image": "Cups03.png"
+    "image": "https://postimg.cc/hJKVjZwQ"
   },
   {
     "designation": "Minor",
@@ -844,19 +844,19 @@
       "face-down",
       "cards"
     ],
-    "image": "Cups04.png"
+    "image": "https://postimg.cc/v1Xf6LFq"
   },
   {
     "designation": "Minor",
     "suit": "Cups",
     "name": "5 of Cups",
     "upright": "Copy an effect that has triggered this turn.",
-    "reversed": "You may shuffle your hand into your library and draw that many cards.",
+    "reversed": "You may shuffle your hand into your deck and draw that many cards.",
     "tags": [
       "copy",
       "cards"
     ],
-    "image": "Cups05.png"
+    "image": "https://postimg.cc/7J534CRB"
   },
   {
     "designation": "Minor",
@@ -868,7 +868,7 @@
       "multiplier",
       "copy"
     ],
-    "image": "Cups06.png"
+    "image": "https://postimg.cc/Yj0fYVS1"
   },
   {
     "designation": "Minor",
@@ -881,7 +881,7 @@
       "damage",
       "cards"
     ],
-    "image": "Cups07.png"
+    "image": "https://postimg.cc/pySQZZ93"
   },
   {
     "designation": "Minor",
@@ -894,7 +894,7 @@
       "face-down",
       "placement"
     ],
-    "image": "Cups08.png"
+    "image": "https://postimg.cc/zyZCmGFj"
   },
   {
     "designation": "Minor",
@@ -906,7 +906,7 @@
       "face-down",
       "copy"
     ],
-    "image": "Cups09.png"
+    "image": "https://postimg.cc/qz9LkL42"
   },
   {
     "designation": "Minor",
@@ -918,33 +918,33 @@
       "cards",
       "wipe"
     ],
-    "image": "Cups10.png"
+    "image": "https://postimg.cc/McYbmJRY"
   },
   {
     "designation": "Minor",
     "suit": "Cups",
     "name": "Page of Cups",
-    "upright": "Each player reveals the top card of their library. You may draw a card.",
+    "upright": "Each player reveals the top card of their deck. You may draw a card.",
     "reversed": "You may place a card face-down. (Face-down cards may be flipped face-up and triggered at any time.)",
     "tags": [
       "cards",
       "control",
       "politics"
     ],
-    "image": "Cups11.png"
+    "image": "https://postimg.cc/Kkv79pDh"
   },
   {
     "designation": "Minor",
     "suit": "Cups",
     "name": "Knight of Cups",
     "upright": "Copy an effect of a card in your memory. (You may choose either effect on the card.)",
-    "reversed": "Choose a player. That player puts 3 cards from their library into their memory.",
+    "reversed": "Choose a player. That player puts 3 cards from their deck into their memory.",
     "tags": [
       "copy",
       "memory",
       "mill"
     ],
-    "image": "Cups12.png"
+    "image": "https://postimg.cc/TL7VBjtL"
   },
   {
     "designation": "Minor",
@@ -958,7 +958,7 @@
       "memory",
       "cards"
     ],
-    "image": "Cups13.png"
+    "image": "https://postimg.cc/Q9Xm2dsP"
   },
   {
     "designation": "Minor",
@@ -972,6 +972,6 @@
       "cards",
       "face-down"
     ],
-    "image": "Cups14.png"
+    "image": "https://postimg.cc/DJB6n3wz"
   }
 ]
