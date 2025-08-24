@@ -69,7 +69,7 @@ export default function App() {
     return (
       <div key={card.name} style={{ position: 'relative' }}>
         <div>
-          <img src={card.image} height={300} width={180} />
+          <img src={card.image} />
         </div>
         <button onClick={handleUnselect} style={{ position: 'absolute', top: 10, right: 10 }}>-</button>
       </div>
@@ -87,9 +87,9 @@ export default function App() {
     }
     const selected = selectedNames.includes(card.name)
     return (
-      <div key={card.name} style={{ position: 'relative' }}>
+      <div key={card.name} style={{ position: 'relative', maxWidth: '300px', width: '20%' }}>
         <div>
-          <img src={card.image} height={300} width={180} />
+          <img src={card.image} style={{ width: '100%', height: 'auto' }} />
         </div>
         {selected
           ? <button style={{ position: 'absolute', top: 10, right: 10 }} onClick={handleUnselect}>-</button>
@@ -147,14 +147,22 @@ export default function App() {
   function handleTagSelect(event: ChangeEvent<HTMLSelectElement>) {
     const value = event.target.value;
     if (value === 'All cards') {
-      setTags(['All cards'])
+      if (tags.includes('All cards')) {
+        const newTags = tags.filter(tag => tag !== 'All cards');
+        setTags(newTags);
+      } else {
+        setTags(['All cards']);
+      }
       return
     }
-    setTags(prev =>
-      prev.includes(value)
-        ? prev.filter(option => option !== value)
-        : [...prev, value]
-    );
+    const withoutAll = tags.filter(tag => tag !== 'All cards');
+    if (tags.includes(value)) {
+      const filtered = withoutAll.filter(option => option !== value)
+      setTags(filtered);
+    } else {
+      const added = [...withoutAll, value]
+      setTags(added);
+    }
   };
   return (
     <>
